@@ -5,6 +5,13 @@
     <color name="fab">#4FCC00</color>
     <color name="fab2">#406FFF</color>
     <color name="bg_colour">#EFEACE</color>
-    <color name="nagigation_bar_colour">#0800FF</color>
-    <color name="Statur_bar_colour_backgraung">#378E00</color>
+    <color name="navigation_bar_colour">#0800FF</color>
+    <color name="Status_bar_colour_background">#378E00</color>
+    <color name="Name_colour">#FFD400</color>
+    <color name="Email_colour">#CC005F</color>
+    <color name="Phone_colour">#7700CC</color>
+    <color name="Description_colour">#AF7834</color>
+    <color name="Password_colour">#DD2C00</color>
+    <color name="button1_colour">#34B500</color>
+    <color name="button2_colour">#304FFE</color>
 </resources>

@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.SignupApp" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your light theme here. -->
-        <item name="android:navigationBarColor">@color/nagigation_bar_colour</item>
-        <item name="statusBarBackground">@color/Statur_bar_colour_backgraung</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_colour</item>
+        <item name="statusBarBackground">@color/Status_bar_colour_background</item>
         <item name="statusBarForeground">@color/white</item>
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
