@@ -14,4 +14,5 @@
     <color name="Password_colour">#DD2C00</color>
     <color name="button1_colour">#34B500</color>
     <color name="button2_colour">#304FFE</color>
+    <color name="fab3">#00BFA5</color>
 </resources>

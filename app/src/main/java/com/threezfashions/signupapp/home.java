@@ -3,7 +3,9 @@ package com.threezfashions.signupapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -24,10 +26,28 @@ public class home extends AppCompatActivity {
         ed3 = findViewById(R.id.ed3);
         ed4 = findViewById(R.id.ed4);
         ed5 = findViewById(R.id.ed5);
-        // Write a message to the database
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("message");
+        button = findViewById(R.id.button);
+        button2 = findViewById(R.id.button2);
 
-        myRef.setValue("s");
+        //Click button 1 to upload data to Firebase-Database
+
+      button.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View v) {
+              // Write a message to the database
+              FirebaseDatabase database = FirebaseDatabase.getInstance();
+              DatabaseReference myRef = database.getReference("Storage");
+                 //
+              myRef.setValue("Name : " + ed1 + "Email : " + ed2 + "Phone : " + ed3 + "Password : " + ed4 + "description : " + ed5);
+          }
+      });
+      //Click button 2 to Go data Activity
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(home.this , data.class);
+                startActivity(intent);
+            }
+        });
     }
 }
