@@ -15,4 +15,6 @@
     <color name="button1_colour">#34B500</color>
     <color name="button2_colour">#304FFE</color>
     <color name="fab3">#00BFA5</color>
+    <color name="textview_background_colour">#6200EA</color>
+    <color name="button3_colour">#FFAB00</color>
 </resources>
