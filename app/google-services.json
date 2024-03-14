@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "106332616663",
+    "project_id": "signup-app-f4a10",
+    "storage_bucket": "signup-app-f4a10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106332616663:android:ae3a9ea560bda128dcbd92",
+        "android_client_info": {
+          "package_name": "com.threezfashions.signupapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL13nZBrZ59UR5-LmY7kVxg0BXkMVeqjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
