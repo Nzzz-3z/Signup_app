@@ -22,7 +22,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.022" />
+            app:layout_constraintVertical_bias="0.022"
+            android:layout_gravity="center"/>
 
         <EditText
             android:id="@+id/ed1"
@@ -30,7 +31,7 @@
             android:layout_height="43dp"
             android:layout_marginStart="72dp"
             android:layout_marginTop="27dp"
-            android:layout_marginEnd="73dp"
+            android:layout_marginEnd="@dimen/_15sdp"
             android:layout_marginBottom="21dp"
             android:backgroundTint="@color/Name_colour"
             android:ems="10"
@@ -40,7 +41,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView"
-            tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+            tools:ignore="MissingConstraints,RtlCompat,TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/ed3"
@@ -70,7 +71,7 @@
             app:layout_constraintEnd_toStartOf="@+id/ed3"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ed1"
-            tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+            tools:ignore="MissingConstraints,RtlCompat,TouchTargetSizeCheck" />
 
         <EditText
         android:id="@+id/ed5"
@@ -90,7 +91,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ed4"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,RtlCompat" />
 
     <EditText
         android:id="@+id/ed4"
